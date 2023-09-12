@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+}
+
+html {
+    font-size: 70%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+.font-head{
+    font-family: Papyrus, fantasy;
+}
+section {
+    padding: 2rem 9%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    padding: 1rem;
+    margin: 2rem 0;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #04f02bbb;
+    color: rgba(255, 255, 255, 0.995);
+    padding: 1rem 2.5rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: rgba(3, 239, 223, 0.771);
+}
+
+header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    z-index: 1000;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+}
+
+header a.logo {
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+nav a {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    color: rgba(27, 10, 10, 0.8);
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+nav.navbar a:hover {
+    color: rgb(70, 188, 55);
+}
+
+div.icons a {
+    font-size: 2rem;
+    color: rgb(12, 12, 95);
+    margin-left: 1.5rem;
+}
+
+div.icons a:hover {
+    color: rgb(70, 188, 55);
+}
+
+header #toggler {
+    display: none;
+}
+
+i.fa-bars {
+    font-size: 2rem;
+    color: black;
+    padding: 1.5rem 0.5rem;
+    cursor: pointer;
+    border: 0.3rem solid black;
+    display: none;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-image:url("https://img.freepik.com/free-photo/freshly-italian-pizza-with-mozzarella-cheese-slice-generative-ai_188544-12347.jpg?w=826&t=st=1691984373~exp=1691984973~hmac=0658cb990b802f3862259d096f6114948c4c0a477ab1d311ff0fde4b3ac03a3d");
+    background-size: cover;
+    background-position: center;
+
+}
+
+div.content {
+    max-width: 50rem;
+}
+
+.home h3 {
+    font-size: 6rem;
+    color:#ffffff;
+}
+
+.home span {
+    font-size: 3rem;
+    color:#ffffff;
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+.home p {
+    font-size: 1.3rem;
+    color:#ffffff;
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+.about .row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 2rem;
+}
+
+.about .row .videocontaineer {
+    flex: 1 1 40rem;
+    position: relative;
+
+
+}
+
+.about .row .videocontaineer video {
+    width: 100%;
+    border: 1rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1);
+    height: 100%;
+    object-fit: cover;
+    background-color: #bd0dee;
+
+
+}
+
+.videocontaineer h3 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    font-size: 2rem;
+    color: black;
+    background: #eee;
+    width: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+.row .content {
+    flex: 1 1 40rem;
+}
+
+.row .content h2 {
+    font-size: 3rem;
+    color: rgb(45, 82, 245);
+}
+
+.row .content p {
+    font-size: 1.5rem;
+    color: black;
+    padding: 4rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+.iconscontaineer {
+    background: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.iconscontaineer .icons {
+    background: #fff;
+    border: .5rem solid black;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex: 1 1 25rem;
+
+}
+
+.iconscontaineer .icons h2 {
+    color: rgba(92, 59, 13, 0.834);
+    padding-bottom: 2rem;
+    font-size: 1.9rem;
+}
+
+.iconscontaineer .icons span {
+    color: #887e7e;
+    font-size: 1.5rem;
+}
+
+.fa-wifi {
+    padding-left: 2rem;
+    padding-bottom: 8rem;
+}
+
+.fa-cake-candles {
+    padding-left: 1rem;
+    padding-bottom: 6rem;
+    padding-right: 1rem;
+}
+
+.fa-tag {
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+    padding-right: 1rem;
+}
+
+.fa-comment {
+    padding-left: 1rem;
+    padding-bottom: 7.5rem;
+    padding-right: 1rem;
+}
+
+.menu .boxcontaineer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+}
+
+.menu .boxcontaineer .box {
+    flex: 1 1 30rem;
+    box-shadow: 0 .3rem .5rem black;
+    border-radius: 0.5rem;
+    border: .3rem solid black;
+    position: relative;
+    background-color: #6915154e;
+
+}
+
+.menu .boxcontaineer .box a {
+    height: 3rem;
+    line-height: 3rem;
+    font-size: 2rem;
+    width: 50%;
+    color: rgb(13, 13, 91)
+}
+
+.menu .boxcontaineer .box .icons a:hover {
+    background: rgba(15, 177, 15, 0.552);
+}
+
+.menu .boxcontaineer .box .content {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.menu .boxcontaineer .box .content h2 {
+    font-size: 2.5rem;
+    color: black;
+}
+
+.menu .boxcontaineer .box .content .price {
+    font-size: 2rem;
+    color: black;
+    font-weight: bolder;
+    padding-top: 1rem;
+}
+
+.contact .row {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 1.5rem;
+    align-items: center;
+
+}
+
+.contact .row form {
+    flex: 1 1 40rem;
+    padding: 2rem 2.5rem;
+    box-shadow: 0 .5rem 1rem black;
+    border: .3rem solid black;
+    background: #fff;
+    border-radius: .5rem;
+    background-color: rgba(0, 202, 221, 0.863);
+}
+
+.contact .row form .box {
+    padding: 1rem;
+    font-size: 1.5rem;
+    color: #333;
+    text-transform: none;
+    border: .3rem solid black;
+    border-radius: .5rem;
+    margin: 1.5rem 0;
+    width: 100%;
+
+}
+
+.contact .row form textarea {
+    height: 15rem;
+    resize: none;
+}
+.logo{
+    font-family: Papyrus, fantasy;
+    font-weight:bold;
+
+}
+
+.image-size{
+    width:50%;
+}
